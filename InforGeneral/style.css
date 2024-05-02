@@ -13,7 +13,35 @@ body{
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-.carousel{
-        width: 60%;
-        margin-top: 350px;   
+.carousel-inner {
+    max-width: 100%;
+    height: auto;
 }
+
+.carousel-item img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.bg-body-tertiary{
+    background-color: #989999 !important;
+}
+
+/* .card-header{
+    background-color: #8f0c13 !important;
+} */
+
+.card-body{
+    background-color: #770f0f;
+}
+
+/* .linea{
+    background-color:  #797c89e3;
+}
+
+.card-footer{
+    background-color: #12225de3 !important;
+
+} */
