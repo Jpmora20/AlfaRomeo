@@ -9,9 +9,64 @@ max-width: 100px;
 
 body{
     background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    content: normal;
+    display: block;
+    width: 100%;
+    
 }
 
 .carousel{
         width: 60%;
         margin-top: 350px;   
+}
+
+.navbar-nav{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-link{
+    position: relative;
+    display: inline-block;
+    color: black;
+    font-weight: 600;
+}
+
+.form-inline{
+    display: flex;
+    width: 200px;
+    height: 36px;
+    gap: 6px;
+}
+
+.card-header{
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+
+
+.card-img{
+    position: absolute;
+    width: 700px;
+    height: 100%;
+}
+
+.items {
+    list-style: none;
+    padding-right: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
