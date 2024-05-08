@@ -37,6 +37,20 @@ body{
     background-color: #770f0f;
 }
 
+.navbar-nav{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-link{
+    position: relative;
+    display: inline-block;
+    color: black;
+    font-weight: 600;
+}
+
 /* .linea{
     background-color:  #797c89e3;
 }
@@ -45,3 +59,53 @@ body{
     background-color: #12225de3 !important;
 
 } */
+/* *
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+img
+{
+max-width: 100px;
+}
+
+body{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.carousel-inner {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel-item img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.bg-body-tertiary{
+    background-color: #989999 !important;
+}
+
+/* .card-header{
+    background-color: #8f0c13 !important;
+} */
+
+/* .card-body{
+    background-color: #770f0f;
+} */
+
+/* .linea{
+    background-color:  #797c89e3;
+}
+
+.card-footer{
+    background-color: #12225de3 !important;
+
+} */ 
